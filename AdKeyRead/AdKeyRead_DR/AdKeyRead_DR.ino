@@ -47,7 +47,7 @@ void loop() {
    For the distance, when 10.10 or more cm means to be not pressed
    when 9.50 or less cm means to be pressed. 
    */
-   if (distance < 13.4) {
+   if (distance < 12.8) {
     result1 = 0;
    }else{
     result1 = 1;
@@ -66,7 +66,7 @@ void loop() {
    For the distance, when 10.10 or more cm means to be not pressed
    when 9.50 or less cm means to be pressed.
    */
-   if (distance < 13.4) {
+   if (distance < 16.9) {
     result2 = 0;
    }else{
     result2 = 1;
